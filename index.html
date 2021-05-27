@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Aziz Mejri - Portfolio</title>
+    <title>Miguel Ricaño - Portfolio</title>
   </head>
   <body>
     <header>
@@ -290,41 +290,21 @@
         </div>
       </div>
     </main>
-    <footer class="social footer-social">
-      <div id="contact">
-        <h1 class="font">Contact me</h1>
-        <h2 class="font">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </h2>
-        <form action="https://formspree.io/f/mwkakrqj" method="POST">
-          <input
-            type="text"
-            name="fullname"
-            id="fullname"
-            placeholder="FullName"
-            maxlength="30"
-            required
-          />
-          <input
-            type="email"
-            id="email"
-            name="_replyto"
-            placeholder="Email address"
-            required
-          />
-          <textarea
-            name="message"
-            placeholder="Enter text here"
-            id="textarea"
-            maxlength="500"
-            required
-          ></textarea>
-          <button type="submit" class="link font">Get In Touch</button>
-        </form>
+    <section class="contact-container">
+      <div class="contact-left">
+          <h2 class="contact-title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
       </div>
-    </footer>
+      <div class="contact-right">
+          <form action="https://formspree.io/f/xbjqgnpd" method="POST" class="contact-form">
+
+              <input type="text" id="fullname" name="fullname" placeholder="Full name"  maxlength="30" required>
+              <input type="email" id="email" name="email" placeholder="Email address" maxlength="30" required>
+              <textarea id="message" name="message" placeholder="How can i help you?" maxlength="30" required></textarea>
+
+              <button type="submit" class="btn orange-button">Get in touch</button>
+          </form>
+      </div>
+    </section>
 
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
